@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import SpringEx2.exception.ResourceNotFoundException;
 import SpringEx2.model.Employee;
 import SpringEx2.repository.EmployeeRepository;
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://emp-crud-react-frontend.herokuapp.com/")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
